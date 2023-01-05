@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000402
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -41,29 +42,127 @@ assetsSummary:
   - TwoPhotonSeries
   - ProcessingModule
   - EyeTracking
-citation: Weigl, Szonja (2023) MICrONS Two Photon Functional Imaging (Version draft)
+citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
+  Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
+  Erick ; Collman, Forrest (2023) MICrONS Two Photon Functional Imaging (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000402/draft
 contributor:
-- affiliation: []
-  email: weigl.anna.szonja@hallgato.ppke.hu
+- affiliation:
+  - name: Princeton Neuroscience Institute, Princeton University
+    schemaKey: Affiliation
+  - name: Electrical and Computer Engineering Department, Princeton University
+    schemaKey: Affiliation
+  email: ''
+  identifier: 0000-0002-4681-6342
   includeInCitation: true
-  name: Weigl, Szonja
+  name: Bae, J. Alexander
   roleName:
-  - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Department of Neuroscience, Baylor College of Medicine
+    schemaKey: Affiliation
+  - name: Center for Neuroscience and Artificial Intelligence, Baylor College of Medicine
+    schemaKey: Affiliation
+  email: ''
+  includeInCitation: true
+  name: Baptiste, Mahaly
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: ''
+  includeInCitation: true
+  name: Bodor, Agnes L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: ''
+  includeInCitation: true
+  name: Brittain, Derrick
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  identifier: 0000-0002-4212-5560
+  includeInCitation: true
+  name: Buchanan, JoAnn
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Bumbarger, Daniel J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Princeton Neuroscience Institute, Princeton University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Castro, Manuel A.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Department of Neuroscience, Baylor College of Medicine
+    schemaKey: Affiliation
+  - name: Center for Neuroscience and Artificial Intelligence, Baylor College of Medicine
+    schemaKey: Affiliation
+  - name: Department of Electrical and Computer Engineering, Rice University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Celii, Brendan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Department of Neuroscience, Baylor College of Medicine
+    schemaKey: Affiliation
+  - name: Center for Neuroscience and Artificial Intelligence, Baylor College of Medicine
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: 'Cobos, Erick '
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: nunod@alleninstitute.org
+  includeInCitation: true
+  name: Collman, Forrest
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
 description: This dataset contains calcium imaging recorded from multiple cortical
   visual areas and behavioral measurements while a mouse viewed natural movies and
   parametric stimuli.
+ethicsApproval: []
 id: DANDI:000402/draft
 identifier: DANDI:000402
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000402/versions/draft/assets/
 name: MICrONS Two Photon Functional Imaging
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000402/draft
 version: draft
+wasGeneratedBy: []
