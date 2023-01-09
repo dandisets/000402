@@ -44,8 +44,9 @@ assetsSummary:
   - EyeTracking
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
-  Erick ; Collman, Forrest (2023) MICrONS Two Photon Functional Imaging (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000402/draft
+  Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
+  Fahey, Paul G.; Fliss, Tim (2023) MICrONS Two Photon Functional Imaging (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000402/draft
 contributor:
 - affiliation:
   - name: Princeton Neuroscience Institute, Princeton University
@@ -141,6 +142,54 @@ contributor:
   email: nunod@alleninstitute.org
   includeInCitation: true
   name: Collman, Forrest
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: nunod@alleninstitute.org
+  identifier: 0000-0003-2001-4568
+  includeInCitation: true
+  name: Maçarico da Costa, Nuno
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Princeton Neuroscience Institute, Princeton University
+    schemaKey: Affiliation
+  - name: Computer Science Department, Princeton University
+    schemaKey: Affiliation
+  identifier: 0000-0003-2352-319X
+  includeInCitation: true
+  name: Dorkenwald, Sven
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Elabbady, Leila
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Department of Neuroscience, Baylor College of Medicine
+    schemaKey: Affiliation
+  - name: Center for Neuroscience and Artificial Intelligence, Baylor College of Medicine
+    schemaKey: Affiliation
+  identifier: 0000-0001-6844-3551
+  includeInCitation: true
+  name: Fahey, Paul G.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Fliss, Tim
   roleName:
   - dcite:Author
   schemaKey: Person
