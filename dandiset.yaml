@@ -48,11 +48,7 @@ citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derric
   Fahey, Paul G.; Fliss, Tim (2023) MICrONS Two Photon Functional Imaging (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000402/draft
 contributor:
-- affiliation:
-  - name: Princeton Neuroscience Institute, Princeton University
-    schemaKey: Affiliation
-  - name: Electrical and Computer Engineering Department, Princeton University
-    schemaKey: Affiliation
+- affiliation: []
   email: ''
   identifier: 0000-0002-4681-6342
   includeInCitation: true
