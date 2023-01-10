@@ -45,8 +45,10 @@ assetsSummary:
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
-  Fahey, Paul G.; Fliss, Tim (2023) MICrONS Two Photon Functional Imaging (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000402/draft
+  Fahey, Paul G.; Fliss, Tim; Gager, Jay; Gamlin, Clare; Halageri, Akhilesh; Hebditch,
+  James; Jia, Zhen; Jordan, Chris; Kapner, Daniel; Kemnitz, Nico; Kinn, Sam (2023)
+  MICrONS Two Photon Functional Imaging (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000402/draft
 contributor:
 - affiliation: []
   email: ''
@@ -186,6 +188,67 @@ contributor:
     schemaKey: Affiliation
   includeInCitation: true
   name: Fliss, Tim
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: false
+  name: Froudarakis, Emmanouil
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Gager, Jay
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Gamlin, Clare
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Halageri, Akhilesh
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Hebditch, James
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Jia, Zhen
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Jordan, Chris
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kapner, Daniel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-0260-4532
+  includeInCitation: true
+  name: Kemnitz, Nico
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kinn, Sam
   roleName:
   - dcite:Author
   schemaKey: Person
