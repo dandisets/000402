@@ -17,15 +17,15 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 59137047741
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 58359232983
   numberOfFiles: 1
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -34,14 +34,14 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - SpatialSeries
-  - ImagingPlane
-  - PupilTracking
-  - PlaneSegmentation
-  - OpticalChannel
-  - TwoPhotonSeries
-  - ProcessingModule
   - EyeTracking
+  - OpticalChannel
+  - SpatialSeries
+  - PupilTracking
+  - TwoPhotonSeries
+  - PlaneSegmentation
+  - ProcessingModule
+  - ImagingPlane
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
