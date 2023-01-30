@@ -46,12 +46,21 @@ citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derric
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
   Fahey, Paul G.; Fliss, Tim; Gager, Jay; Gamlin, Clare; Halageri, Akhilesh; Hebditch,
-  James; Jia, Zhen; Jordan, Chris; Kapner, Daniel; Kemnitz, Nico; Kinn, Sam (2023)
-  MICrONS Two Photon Functional Imaging (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000402/draft
+  James; Jia, Zhen; Jordan, Chris; Kapner, Daniel; Kemnitz, Nico; Kinn, Sam; Koolman,
+  Selden; Kuehner, Kai; Lee, Kisuk; Li, Kai; Lu, Ran; Macrina, Thomas; Mahalingam,
+  Gayathri; McReynolds, Sarah; Miranda, Elanine; Mitchell, Eric; Mondal, Shanka Subhra;
+  Moore, Merlin; Mu, Shang; Muhammad, Taliah; Nehoran, Barak; Ogedengbe, Oluwaseun;
+  Papadopoulos, Christos; Papadopoulos, Stelios; Patel, Saumil; Pitkow, Xaq; Popovych,
+  Sergiy; Ramos, Anthony; Reid, R. Clay; Reimer, Jacob; Schneider-Mizell, Casey M.;
+  Seung, H. Sebastian; Silverman, Ben; Silversmith, William; Sterling, Amy; Sinz,
+  Fabian H.; Smith, Cameron L.; Suckow, Shelby; Takeno, Marc; Tan, Zheng H.; Tolias,
+  Andreas S.; Torres, Russel; Turner, Nicholas L.; Walker, Edgar Y.; Wang, Tianyu;
+  Williams, Grace; Williams, Sarah; Willie, Kyle; Willie, Ryan; Wong, William; Wu,
+  Jingpeng; Xu, Chris; Yang, Runzhe; Yatsenko, Dimitri; Ye, Fei; Yin, Wenjing; Yu,
+  Szi-chieh (2023) MICrONS Two Photon Functional Imaging (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000402/draft
 contributor:
 - affiliation: []
-  email: ''
   identifier: 0000-0002-4681-6342
   includeInCitation: true
   name: Bae, J. Alexander
@@ -63,7 +72,6 @@ contributor:
     schemaKey: Affiliation
   - name: Center for Neuroscience and Artificial Intelligence, Baylor College of Medicine
     schemaKey: Affiliation
-  email: ''
   includeInCitation: true
   name: Baptiste, Mahaly
   roleName:
@@ -72,7 +80,6 @@ contributor:
 - affiliation:
   - name: Allen Institute for Brain Science
     schemaKey: Affiliation
-  email: ''
   includeInCitation: true
   name: Bodor, Agnes L.
   roleName:
@@ -81,7 +88,6 @@ contributor:
 - affiliation:
   - name: Allen Institute for Brain Science
     schemaKey: Affiliation
-  email: ''
   includeInCitation: true
   name: Brittain, Derrick
   roleName:
@@ -182,6 +188,7 @@ contributor:
   name: Fahey, Paul G.
   roleName:
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
   - name: Allen Institute for Brain Science
@@ -249,6 +256,326 @@ contributor:
 - affiliation: []
   includeInCitation: true
   name: Kinn, Sam
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Koolman, Selden
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kuehner, Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Lee, Kisuk
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Li, Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Lu, Ran
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-0622-9338
+  includeInCitation: true
+  name: Macrina, Thomas
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mahalingam, Gayathri
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: McReynolds, Sarah
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Miranda, Elanine
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mitchell, Eric
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mondal, Shanka Subhra
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Moore, Merlin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mu, Shang
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Muhammad, Taliah
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Nehoran, Barak
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Ogedengbe, Oluwaseun
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Papadopoulos, Christos
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-7991-6377
+  includeInCitation: true
+  name: Papadopoulos, Stelios
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Patel, Saumil
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-6376-329X
+  includeInCitation: true
+  name: Pitkow, Xaq
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Popovych, Sergiy
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Ramos, Anthony
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Reid, R. Clay
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Reimer, Jacob
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-9477-3853
+  includeInCitation: true
+  name: Schneider-Mizell, Casey M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-8591-6733
+  includeInCitation: true
+  name: Seung, H. Sebastian
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Silverman, Ben
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-5485-5341
+  includeInCitation: true
+  name: Silversmith, William
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Sterling, Amy
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Sinz, Fabian H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-2079-4667
+  includeInCitation: true
+  name: Smith, Cameron L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Suckow, Shelby
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-8384-7500
+  includeInCitation: true
+  name: Takeno, Marc
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Tan, Zheng H.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Tolias, Andreas S.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Torres, Russel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-5382-3420
+  includeInCitation: true
+  name: Turner, Nicholas L.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0003-0057-957X
+  includeInCitation: true
+  name: Walker, Edgar Y.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-6087-6376
+  includeInCitation: true
+  name: Wang, Tianyu
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-8463-2886
+  includeInCitation: true
+  name: Williams, Grace
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Williams, Sarah
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Willie, Kyle
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Willie, Ryan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Wong, William
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0003-1604-8802
+  includeInCitation: true
+  name: Wu, Jingpeng
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Xu, Chris
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-8891-5149
+  includeInCitation: true
+  name: Yang, Runzhe
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Yatsenko, Dimitri
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Ye, Fei
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Yin, Wenjing
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Yu, Szi-chieh
   roleName:
   - dcite:Author
   schemaKey: Person
