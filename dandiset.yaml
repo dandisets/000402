@@ -8,24 +8,24 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 711294104459
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 768036980445
   numberOfFiles: 11
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -34,14 +34,14 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - TwoPhotonSeries
+  - ImagingPlane
   - PupilTracking
+  - ProcessingModule
+  - EyeTracking
   - OpticalChannel
   - SpatialSeries
-  - ProcessingModule
-  - TwoPhotonSeries
   - PlaneSegmentation
-  - ImagingPlane
-  - EyeTracking
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
