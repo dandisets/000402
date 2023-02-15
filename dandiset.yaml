@@ -594,7 +594,7 @@ contributor:
   roleName: []
   schemaKey: Organization
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
-description: The light microscopic images were acquired from a cubic millimeter volume
+description: 'The light microscopic images were acquired from a cubic millimeter volume
   that spanned portions of primary visual cortex and three higher visual cortical
   areas. The volume was imaged in vivo by two-photon random access mesoscope (2P-RAM)
   from postnatal days P75 to P81 in a male mouse expressing a genetically encoded
@@ -606,8 +606,14 @@ description: The light microscopic images were acquired from a cubic millimeter 
   higher visual areas, lateromedial area (VISlm), rostrolateral area (VISrl) and anterolateral
   area (VISal). During imaging, the animal was head-restrained, and the stimulus was
   presented to the left visual field. Treadmill rotation (single axis) and video of
-  the animal's left eye were captured throughout the scan, yielding the locomotion
+  the animal''s left eye were captured throughout the scan, yielding the locomotion
   velocity, eye movements, and pupil diameter data included here.
+
+
+  The functional data were co-registered with electron microscopy (EM) data. The structural
+  identifiers of the matched cells are added as plane segmentation columns extracted
+  from the CAVE database. To access the latest revision see the notebook that is linked
+  to this dandiset. The structural ids might not be present for all plane segmentations.'
 ethicsApproval: []
 id: DANDI:000402/draft
 identifier: DANDI:000402
@@ -618,7 +624,21 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000402/versions/draft/assets/
 name: MICrONS Two Photon Functional Imaging
 protocol: []
-relatedResource: []
+relatedResource:
+- name: MICrONS Explorer
+  relation: dcite:IsSupplementTo
+  repository: ''
+  schemaKey: Resource
+  url: https://www.microns-explorer.org/cortical-mm3
+- name: Access to functional data mapping to electron microscopy (EM) data
+  relation: dcite:IsSupplementTo
+  repository: microns_phase3_nda
+  schemaKey: Resource
+  url: https://github.com/cajal/microns_phase3_nda/blob/master/notebooks/Overview_Matched_Cell_Functional_Data.ipynb
+- name: Access to functional data
+  relation: dcite:IsSupplementTo
+  schemaKey: Resource
+  url: https://www.microns-explorer.org/cortical-mm3#f-data
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
