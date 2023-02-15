@@ -14,9 +14,41 @@ acknowledgement: Supported by Intelligence Advanced Research Projects Activity (
   NSF NeuroNex grant 1707400, National Institute of Mental Health and National Institute
   of Neurological Disorders And Stroke under Award Number U19MH114830.
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1138847447202
+  numberOfFiles: 16
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - TwoPhotonSeries
+  - ImagingPlane
+  - PupilTracking
+  - ProcessingModule
+  - EyeTracking
+  - OpticalChannel
+  - SpatialSeries
+  - PlaneSegmentation
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
@@ -33,7 +65,7 @@ citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derric
   Williams, Grace; Williams, Sarah; Willie, Kyle; Willie, Ryan; Wong, William; Wu,
   Jingpeng; Xu, Chris; Yang, Runzhe; Yatsenko, Dimitri; Ye, Fei; Yin, Wenjing; Yu,
   Szi-chieh (2023) MICrONS Two Photon Functional Imaging (Version draft) [Data set].
-  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  DANDI archive. https://dandiarchive.org/dandiset/000402/draft
 contributor:
 - affiliation: []
   identifier: 0000-0002-4681-6342
@@ -554,6 +586,73 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- awardNumber: D16PC00003
+  contactPoint: []
+  includeInCitation: false
+  name: Intelligence Advanced Research Projects Activity (IARPA)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.iarpa.gov
+- awardNumber: D16PC0005
+  contactPoint: []
+  includeInCitation: false
+  name: Intelligence Advanced Research Projects Activity (IARPA)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ' D16PC00004'
+  contactPoint: []
+  includeInCitation: false
+  name: Intelligence Advanced Research Projects Activity (IARPA)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U01 MH114824
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov
+- awardNumber: U01 MH117072
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov
+- awardNumber: RF1 MH117815
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov
+- awardNumber: U19 NS104648
+  contactPoint: []
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.ninds.nih.gov/
+- awardNumber: R01 EY027036
+  contactPoint: []
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://nei.nih.gov/
 - awardNumber: U19MH114830
   contactPoint: []
   identifier: https://ror.org/01s5ya894
@@ -563,15 +662,41 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: D16PC00003, D16PC00004, D16PC0005
+- awardNumber: R01 NS104926
+  contactPoint: []
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.ninds.nih.gov/
+- awardNumber: IOS-1552868
   contactPoint: []
   includeInCitation: false
-  name: Intelligence Advanced Research Projects Activity (IARPA)
+  name: National Science Foundation - Faculty Early Career Development Program (CAREER)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nsf.gov/
+- awardNumber: RF1 MH123400
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov
+- awardNumber: '1707400'
+  contactPoint: []
+  identifier: https://ror.org/021nxhr62
+  includeInCitation: false
+  name: National Science Foundation - Next Generation Networks for Neuroscience (NeuroNex)
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
-datePublished: '2023-02-15T18:01:19.149856+00:00'
 description: 'The light microscopic images were acquired from a cubic millimeter volume
   that spanned portions of primary visual cortex and three higher visual cortical
   areas. The volume was imaged in vivo by two-photon random access mesoscope (2P-RAM)
@@ -592,7 +717,6 @@ description: 'The light microscopic images were acquired from a cubic millimeter
   identifiers of the matched cells are added as plane segmentation columns extracted
   from the CAVE database. To access the latest revision see the notebook that is linked
   to this dandiset. The structural ids might not be present for all plane segmentations.'
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000402/draft
 identifier: DANDI:000402
@@ -603,18 +727,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000402/versions/draft/assets/
 name: MICrONS Two Photon Functional Imaging
 protocol: []
-publishedBy:
-  endDate: '2023-02-15T18:01:19.149856+00:00'
-  id: urn:uuid:edc707d6-3e2f-41a0-90a2-20aba40014f6
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-02-15T18:01:19.149856+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:5edb0f83-052d-4e53-9a52-10db28b7b99c
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - name: MICrONS Explorer
   relation: dcite:IsSupplementTo
