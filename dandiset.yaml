@@ -6,6 +6,13 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: Supported by Intelligence Advanced Research Projects Activity (IARPA)
+  via Department of Interior/ Interior Business Center (DoI/IBC) contract numbers
+  D16PC00003, D16PC00004, and D16PC0005. NIH/NINDS U19 NS104648, NIH/NEI R01 EY027036,
+  NIH/NIMH U01 MH114824, NIH/NIMH U01 MH117072 NIH/NINDS R01 NS104926, NIH/NIMH RF1
+  MH117815, NIH/NIMH RF1 MH123400, Mathers Foundation, NSF CAREER grant IOS-1552868,
+  NSF NeuroNex grant 1707400, National Institute of Mental Health and National Institute
+  of Neurological Disorders And Stroke under Award Number U19MH114830.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -579,16 +586,34 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- awardNumber: U19MH114830
+  contactPoint: []
+  includeInCitation: false
+  name: National Institute of Mental Health and National Institute of Neurological
+    Disorders And Stroke
+  roleName: []
+  schemaKey: Organization
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
-description: This dataset contains calcium imaging recorded from multiple cortical
-  visual areas and behavioral measurements while a mouse viewed natural movies and
-  parametric stimuli.
+description: The light microscopic images were acquired from a cubic millimeter volume
+  that spanned portions of primary visual cortex and three higher visual cortical
+  areas. The volume was imaged in vivo by two-photon random access mesoscope (2P-RAM)
+  from postnatal days P75 to P81 in a male mouse expressing a genetically encoded
+  calcium indicator in excitatory cells, while the mouse viewed natural movies and
+  parametric stimuli. The calcium imaging data includes the single-cell responses
+  of an estimated 75,000 pyramidal cells imaged over a volume of approximately 1200
+  x 1100 x 500 μm3 (anteroposterior x mediolateral x radial depth). The center of
+  the volume was placed at the junction of primary visual cortex (VISp) and three
+  higher visual areas, lateromedial area (VISlm), rostrolateral area (VISrl) and anterolateral
+  area (VISal). During imaging, the animal was head-restrained, and the stimulus was
+  presented to the left visual field. Treadmill rotation (single axis) and video of
+  the animal's left eye were captured throughout the scan, yielding the locomotion
+  velocity, eye movements, and pupil diameter data included here.
 ethicsApproval: []
 id: DANDI:000402/draft
 identifier: DANDI:000402
 keywords: []
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000402/versions/draft/assets/
 name: MICrONS Two Photon Functional Imaging
