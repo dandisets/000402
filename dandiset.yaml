@@ -14,41 +14,9 @@ acknowledgement: Supported by Intelligence Advanced Research Projects Activity (
   NSF NeuroNex grant 1707400, National Institute of Mental Health and National Institute
   of Neurological Disorders And Stroke under Award Number U19MH114830.
 assetsSummary:
-  approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
-  - name: behavioral approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1834796367748
-  numberOfFiles: 26
-  numberOfSubjects: 1
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - PupilTracking
-  - PlaneSegmentation
-  - ImagingPlane
-  - EyeTracking
-  - ProcessingModule
-  - TwoPhotonSeries
-  - OpticalChannel
-  - SpatialSeries
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
@@ -65,7 +33,7 @@ citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derric
   Williams, Grace; Williams, Sarah; Willie, Kyle; Willie, Ryan; Wong, William; Wu,
   Jingpeng; Xu, Chris; Yang, Runzhe; Yatsenko, Dimitri; Ye, Fei; Yin, Wenjing; Yu,
   Szi-chieh (2023) MICrONS Two Photon Functional Imaging (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000402/draft
+  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   identifier: 0000-0002-4681-6342
@@ -697,6 +665,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
+datePublished: '2023-03-06T22:54:03.979861+00:00'
 description: 'The light microscopic images were acquired from a cubic millimeter volume
   that spanned portions of primary visual cortex and three higher visual cortical
   areas. The volume was imaged in vivo by two-photon random access mesoscope (2P-RAM)
@@ -717,6 +686,7 @@ description: 'The light microscopic images were acquired from a cubic millimeter
   identifiers of the matched cells are added as plane segmentation columns extracted
   from the CAVE database. To access the latest revision see the notebook that is linked
   to this dandiset. The structural ids might not be present for all plane segmentations.'
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000402/draft
 identifier: DANDI:000402
@@ -727,6 +697,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000402/versions/draft/assets/
 name: MICrONS Two Photon Functional Imaging
 protocol: []
+publishedBy:
+  endDate: '2023-03-06T22:54:03.979861+00:00'
+  id: urn:uuid:be20c6f9-df13-43af-b6ec-d685b3687188
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-06T22:54:03.979861+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:213009e0-70ef-431e-95f7-13aaa29ec6fb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: MICrONS Explorer
   relation: dcite:IsSupplementTo
