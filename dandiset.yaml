@@ -2,7 +2,16 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000402
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0035912
+  name: rostrolateral visual area
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0035894
+  name: anterolateral visual area
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002436
+  name: primary visual cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -65,7 +74,7 @@ citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derric
   Williams, Grace; Williams, Sarah; Willie, Kyle; Willie, Ryan; Wong, William; Wu,
   Jingpeng; Xu, Chris; Yang, Runzhe; Yatsenko, Dimitri; Ye, Fei; Yin, Wenjing; Yu,
   Szi-chieh (2023) MICrONS Two Photon Functional Imaging (Version draft) [Data set].
-  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  DANDI archive. https://dandiarchive.org/dandiset/000402/draft
 contributor:
 - affiliation: []
   identifier: 0000-0002-4681-6342
@@ -697,7 +706,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
-datePublished: '2023-03-06T22:54:03.979861+00:00'
+datePublished: '2023-03-07T21:32:06.168531+00:00'
 description: 'The light microscopic images were acquired from a cubic millimeter volume
   that spanned portions of primary visual cortex and three higher visual cortical
   areas. The volume was imaged in vivo by two-photon random access mesoscope (2P-RAM)
@@ -718,7 +727,6 @@ description: 'The light microscopic images were acquired from a cubic millimeter
   identifiers of the matched cells are added as plane segmentation columns extracted
   from the CAVE database. To access the latest revision see the notebook that is linked
   to this dandiset. The structural ids might not be present for all plane segmentations.'
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000402/draft
 identifier: DANDI:000402
@@ -730,13 +738,13 @@ manifestLocation:
 name: MICrONS Two Photon Functional Imaging
 protocol: []
 publishedBy:
-  endDate: '2023-03-06T22:54:03.979861+00:00'
-  id: urn:uuid:be20c6f9-df13-43af-b6ec-d685b3687188
+  endDate: '2023-03-07T21:32:06.168531+00:00'
+  id: urn:uuid:8134248d-1421-44c4-ab43-bac2305e1dec
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-03-06T22:54:03.979861+00:00'
+  startDate: '2023-03-07T21:32:06.168531+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:213009e0-70ef-431e-95f7-13aaa29ec6fb
+  - id: urn:uuid:fab3617c-0f5b-4be6-8a6c-00e75eef5720
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -756,6 +764,12 @@ relatedResource:
   relation: dcite:IsSupplementTo
   schemaKey: Resource
   url: https://www.microns-explorer.org/cortical-mm3#f-data
+- identifier: https://doi.org/10.1101/2021.07.28.454025
+  name: Functional connectomics spanning multiple areas of mouse visual cortex
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2021.07.28.454025v2
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
