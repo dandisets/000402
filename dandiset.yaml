@@ -15,25 +15,25 @@ acknowledgement: Supported by Intelligence Advanced Research Projects Activity (
   of Neurological Disorders And Stroke under Award Number U19MH114830.
 assetsSummary:
   approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
+  - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1648703265156
-  numberOfFiles: 23
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1347665448061
+  numberOfFiles: 19
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -41,14 +41,14 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - SpatialSeries
+  - ImagingPlane
+  - OpticalChannel
+  - EyeTracking
   - PupilTracking
   - PlaneSegmentation
-  - ImagingPlane
-  - EyeTracking
   - ProcessingModule
   - TwoPhotonSeries
-  - OpticalChannel
-  - SpatialSeries
 citation: Bae, J. Alexander; Baptiste, Mahaly; Bodor, Agnes L.; Brittain, Derrick;
   Buchanan, JoAnn; Bumbarger, Daniel J.; Castro, Manuel A.; Celii, Brendan; Cobos,
   Erick ; Collman, Forrest; Maçarico da Costa, Nuno; Dorkenwald, Sven; Elabbady, Leila;
