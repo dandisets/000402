@@ -706,7 +706,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-01-04T10:47:01.770484+00:00'
-datePublished: '2023-03-07T21:32:06.168531+00:00'
 description: 'The light microscopic images were acquired from a cubic millimeter volume
   that spanned portions of primary visual cortex and three higher visual cortical
   areas. The volume was imaged in vivo by two-photon random access mesoscope (2P-RAM)
@@ -737,18 +736,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000402/versions/draft/assets/
 name: MICrONS Two Photon Functional Imaging
 protocol: []
-publishedBy:
-  endDate: '2023-03-07T21:32:06.168531+00:00'
-  id: urn:uuid:8134248d-1421-44c4-ab43-bac2305e1dec
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-03-07T21:32:06.168531+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:fab3617c-0f5b-4be6-8a6c-00e75eef5720
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - name: MICrONS Explorer
   relation: dcite:IsSupplementTo
@@ -759,7 +746,7 @@ relatedResource:
   relation: dcite:IsSupplementTo
   repository: microns_phase3_nda
   schemaKey: Resource
-  url: https://github.com/cajal/microns_phase3_nda/blob/master/notebooks/Overview_Matched_Cell_Functional_Data.ipynb
+  url: https://github.com/datajoint/microns_phase3_nda
 - name: Access to functional data
   relation: dcite:IsSupplementTo
   schemaKey: Resource
