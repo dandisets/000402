@@ -200,6 +200,7 @@ contributor:
     schemaKey: Affiliation
   - name: Center for Neuroscience and Artificial Intelligence, Baylor College of Medicine
     schemaKey: Affiliation
+  email: pgfahey@stanford.edu
   identifier: 0000-0001-6844-3551
   includeInCitation: true
   name: Fahey, Paul G.
